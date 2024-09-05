@@ -1,0 +1,51 @@
+body {
+  background-color: #f2ddcb;
+  text-align: center;
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+form {
+  max-width: 500px;
+  text-align: left;
+}
+.container {
+  height: 85%;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  margin: 45px 20px 30px 20px;
+  padding: 15px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  height: 2em;
+  background-color: black;
+  border-color: #f2ddcb;
+  border-radius: 5px;
+  min-width: 60px;
+  color: aliceblue;
+  margin-top: 7px;
+}
+
+input {
+  padding: 5px;
+}
+
+.form {
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.comments textarea {
+  padding: 15px;
+}
